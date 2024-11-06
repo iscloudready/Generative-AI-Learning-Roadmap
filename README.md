@@ -228,6 +228,7 @@ This section includes influential research papers and readings recommended by Il
   📄 [Read Article](https://example.com)  
   **Description:** Research on scaling language models and their impacts on performance.
 
+
 ---
 
 ## 📊 Categorized Resources
@@ -235,45 +236,45 @@ This section includes influential research papers and readings recommended by Il
 | **Category**       | **Topic**                                      | **Resource Type**     | **Link** |
 |--------------------|------------------------------------------------|-----------------------|----------|
 | **Machine Learning** | Mathematics for ML                          | Video                 | [Watch](https://youtu.be/oMY2uKjx_Zc) |
-|                    | Linear Regression                             | Course                | [Link](https://lnkd.in/gdRsMHbn) |
-|                    | Logistic Regression                           | Course                | [Link](https://lnkd.in/gtPfmQUv) |
-|                    | Naive Bayes Classifier                        | Video                 | [Watch](https://youtu.be/IvTCdrx1SHQ) |
-|                    | Dimensionality Reduction (PCA, AutoEncoders)  | Course                | [Link](https://lnkd.in/gC6XQfez) |
-|                    | Data Science: Machine Learning (Harvard)      | Course                | [Link](https://lnkd.in/eBPDfkqd) |
-|                    | Machine Learning Crash Course                 | Course (Google)       | [Link](https://developers.google.com/machine-learning/crash-course) |
-|                    | Data Science: Linear Regression (Harvard)     | Course                | [Link](https://pll.harvard.edu/course/data-science-linear-regression/2023-10) |
+| **Machine Learning** | Linear Regression                             | Course                | [Link](https://lnkd.in/gdRsMHbn) |
+| **Machine Learning** | Logistic Regression                           | Course                | [Link](https://lnkd.in/gtPfmQUv) |
+| **Machine Learning** | Naive Bayes Classifier                        | Video                 | [Watch](https://youtu.be/IvTCdrx1SHQ) |
+| **Machine Learning** | Dimensionality Reduction (PCA, AutoEncoders)  | Course                | [Link](https://lnkd.in/gC6XQfez) |
+| **Machine Learning** | Data Science: Machine Learning (Harvard)      | Course                | [Link](https://lnkd.in/eBPDfkqd) |
+| **Machine Learning** | Machine Learning Crash Course                 | Course (Google)       | [Link](https://developers.google.com/machine-learning/crash-course) |
+| **Machine Learning** | Data Science: Linear Regression (Harvard)     | Course                | [Link](https://pll.harvard.edu/course/data-science-linear-regression/2023-10) |
 
 | **Statistics**      | Statistics Fundamentals                      | Playlist              | [Link](https://lnkd.in/gCNme3W9) |
-|                    | Data Science: Probability (Harvard)           | Course                | [Link](https://lnkd.in/ecEFv-hE) |
-|                    | Probability                                   | Course                | [Link](https://pll.harvard.edu/course/data-science-probability) |
-|                    | Data Science: Probability (Great Learning)    | Course                | [Link](https://mygreatlearning.com/academy/learn-for-free/courses/probability-for-data-science) |
-|                    | Statistics and R (Harvard)                    | Course                | [Link](https://edx.org/learn/r-programming/harvard-university-statistics-and-r) |
-|                    | Data Science: Probability (Harvard)           | Course                | [Link](https://lnkd.in/ecEFv-hE) |
+| **Statistics**      | Data Science: Probability (Harvard)           | Course                | [Link](https://lnkd.in/ecEFv-hE) |
+| **Statistics**      | Probability                                   | Course                | [Link](https://pll.harvard.edu/course/data-science-probability) |
+| **Statistics**      | Data Science: Probability (Great Learning)    | Course                | [Link](https://mygreatlearning.com/academy/learn-for-free/courses/probability-for-data-science) |
+| **Statistics**      | Statistics and R (Harvard)                    | Course                | [Link](https://edx.org/learn/r-programming/harvard-university-statistics-and-r) |
+| **Statistics**      | Data Science: Probability (Harvard)           | Course                | [Link](https://lnkd.in/ecEFv-hE) |
 
 | **Generative AI**   | ChatGPT Prompt Engineering for Devs          | Course (OpenAI)       | [Link](https://lnkd.in/gtGc5Znp) |
-|                    | LLMOps (Google Cloud & DeepLearning.AI)       | Course                | [Link](https://lnkd.in/gMXDr7MJ) |
-|                    | Generative AI for Data Analysis (Microsoft)   | Professional Certificate | [Link](https://lnkd.in/eKJ9qmEQ) |
-|                    | AI for Everyone (DeepLearning.AI)             | Course                | [Link](https://www.deeplearning.ai/ai-for-everyone/) |
-|                    | Generative AI with Large Language Models (AWS)| Course                | [Link](https://lnkd.in/dSNEtsDz) |
-|                    | Generative Deep Learning by David Foster      | Book                  | - |
+| **Generative AI**   | LLMOps (Google Cloud & DeepLearning.AI)       | Course                | [Link](https://lnkd.in/gMXDr7MJ) |
+| **Generative AI**   | Generative AI for Data Analysis (Microsoft)   | Professional Certificate | [Link](https://lnkd.in/eKJ9qmEQ) |
+| **Generative AI**   | AI for Everyone (DeepLearning.AI)             | Course                | [Link](https://www.deeplearning.ai/ai-for-everyone/) |
+| **Generative AI**   | Generative AI with Large Language Models (AWS)| Course                | [Link](https://lnkd.in/dSNEtsDz) |
+| **Generative AI**   | Generative Deep Learning by David Foster      | Book                  | - |
 
 | **Programming**     | Python for Data Science, AI & Development (IBM) | Course             | [Link](https://lnkd.in/dAzq8jCr) |
-|                    | R Programming Fundamentals                   | Course (Stanford)    | [Link](https://lnkd.in/eYrsBwAH) |
-|                    | SQL for Data Science                         | Course               | [Link](https://lnkd.in/eSUCR9jB) |
-|                    | MongoDB Basics                               | Course               | [Link](https://lnkd.in/es6miJmh) |
-|                    | Python for Data Science (Playlist)           | Playlist             | [Link](https://lnkd.in/gzD7cy6R) |
+| **Programming**     | R Programming Fundamentals                   | Course (Stanford)    | [Link](https://lnkd.in/eYrsBwAH) |
+| **Programming**     | SQL for Data Science                         | Course               | [Link](https://lnkd.in/eSUCR9jB) |
+| **Programming**     | MongoDB Basics                               | Course               | [Link](https://lnkd.in/es6miJmh) |
+| **Programming**     | Python for Data Science (Playlist)           | Playlist             | [Link](https://lnkd.in/gzD7cy6R) |
 
 | **LangChain and Prompt Engineering** | LangChain Prompt Templates            | Course                | [Link](https://lnkd.in/dVkuiizQ) |
-|                                      | Building LLM Agents Using LangChain   | Course                | [Link](https://lnkd.in/dmTgfzYV) |
-|                                      | LangChain Output Parsing              | Course                | [Link](https://lnkd.in/dYvjufGD) |
-|                                      | Understanding LangChain Chains        | Course                | [Link](https://lnkd.in/deE4HYpu) |
+| **LangChain and Prompt Engineering** | Building LLM Agents Using LangChain   | Course                | [Link](https://lnkd.in/dmTgfzYV) |
+| **LangChain and Prompt Engineering** | LangChain Output Parsing              | Course                | [Link](https://lnkd.in/dYvjufGD) |
+| **LangChain and Prompt Engineering** | Understanding LangChain Chains        | Course                | [Link](https://lnkd.in/deE4HYpu) |
 
 | **Other Specialized Topics** | Dynamic Pricing in Ecommerce               | Video                 | [Watch](https://youtu.be/a_CXpnsvPa0) |
-|                             | Transparent Machine Learning with GenAI     | Video                 | [Watch](https://youtu.be/PPl0MRuCKLo) |
-|                             | RAG from Scratch                            | Course                | [Link](https://lnkd.in/gKBqvbF3) |
-|                             | Detecting Buyer-side Returns Fraud          | Video                 | [Watch](https://youtu.be/as4i1tUo0EA) |
-|                             | LinkedIn’s CTR Modeling                     | Video                 | [Watch](https://youtu.be/7l0HLYVFEuU) |
-|                             | Building Large Language Models (Stanford CS229) | Course            | [Link](https://t.co/Eh0IYhHY0g) |
+| **Other Specialized Topics** | Transparent Machine Learning with GenAI     | Video                 | [Watch](https://youtu.be/PPl0MRuCKLo) |
+| **Other Specialized Topics** | RAG from Scratch                            | Course                | [Link](https://lnkd.in/gKBqvbF3) |
+| **Other Specialized Topics** | Detecting Buyer-side Returns Fraud          | Video                 | [Watch](https://youtu.be/as4i1tUo0EA) |
+| **Other Specialized Topics** | LinkedIn’s CTR Modeling                     | Video                 | [Watch](https://youtu.be/7l0HLYVFEuU) |
+| **Other Specialized Topics** | Building Large Language Models (Stanford CS229) | Course            | [Link](https://t.co/Eh0IYhHY0g) |
 
 ---
 
