@@ -36,15 +36,15 @@ This guide is curated from a collection of resources shared on LinkedIn, Twitter
 
 ### Courses
 - **Python for Data Science, AI & Development – IBM**  
-  🔗 [Course Link](https://lnkd.in/dAzq8jCr)  
+  🔗 [Course Link](https://www.coursera.org/learn/python-for-applied-data-science-ai)  
   **Description:** Learn Python basics, data types, and functions for Data Science.
 
 - **Machine Learning Fundamentals – Stanford University**  
-  🔗 [Course Link](https://lnkd.in/d_XZS5ZW)  
+  🔗 [Course Link](https://www.coursera.org/specializations/machine-learning-introduction)  
   **Description:** Covers ML basics like linear regression, decision trees, and model evaluation.
 
 - **AI for Everyone – DeepLearning.AI**  
-  🔗 [Course Link](https://lnkd.in/e2Ghi7xa)  
+  🔗 [Course Link](https://www.coursera.org/learn/ai-for-everyone)  
   **Description:** An introduction to AI concepts, ethics, and applications, perfect for non-technical learners.
 
 - **Introduction to AI with Python – Harvard University**  
@@ -70,15 +70,15 @@ This guide is curated from a collection of resources shared on LinkedIn, Twitter
 
 ### Courses
 - **Neural Networks & Deep Learning – DeepLearning.AI**  
-  🔗 [Course Link](https://lnkd.in/dPwNcG43)  
+  🔗 [Course Link](https://www.coursera.org/learn/neural-networks-deep-learning)  
   **Description:** Understand core architectures of neural networks and deep learning models.
 
 - **Data Science & ML – Harvard University**  
-  🔗 [Course Link](https://lnkd.in/eBPDfkqd)  
+  🔗 [Course Link](https://pll.harvard.edu/course/data-science-machine-learning)  
   **Description:** Covers intermediate machine learning concepts, probability, and statistics.
 
 - **Generative AI with Large Language Models – AWS**  
-  🔗 [Course Link](https://lnkd.in/dSNEtsDz)  
+  🔗 [Course Link](https://www.coursera.org/learn/generative-ai-with-llms)  
   **Description:** Build and deploy large language models (LLMs) with AWS resources.
 
 ### Videos
@@ -100,15 +100,15 @@ This guide is curated from a collection of resources shared on LinkedIn, Twitter
 
 ### Courses
 - **Advanced Machine Learning on Google Cloud Specialization – Google**  
-  🔗 [Course Link](https://lnkd.in/dZgBWgkw)  
+  🔗 [Course Link](https://www.coursera.org/specializations/advanced-machine-learning-tensorflow-gcp)  
   **Description:** Covers advanced ML techniques, including model optimization and hyperparameter tuning.
 
 - **AI Workflow: Feature Engineering and Bias Detection – IBM**  
-  🔗 [Course Link](https://lnkd.in/dFHyauzi)  
+  🔗 [Course Link](https://www.coursera.org/learn/ibm-ai-workflow-feature-engineering-bias-detection)  
   **Description:** Focuses on data preparation, bias detection, and model validation techniques.
 
 - **Supervised Machine Learning: Regression and Classification**  
-  🔗 [Course Link](https://imp.i384100.net/g1KJEA)  
+  🔗 [Course Link](https://www.coursera.org/learn/machine-learning?id=285&irgwc=1)  
   **Description:** An in-depth course on supervised ML techniques with applications in regression and classification.
 
 ### Videos
