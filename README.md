@@ -270,7 +270,7 @@ This section includes influential research papers and readings recommended by Il
 - 🎓 [Learn Generative AI in 21 Hours](https://www.freecodecamp.org/news/learn-generative-ai-for-developers/)
 - 🎥 [NVIDIA Online Courses](https://t.co/orcYDKCs4v)
 - 🧠 [LLM Evaluation](https://t.co/xsYgjw0x5g)
-
+- 📝 [Awesome Generative AI Guide](https://github.com/aishwaryanr/awesome-generative-ai-guide)
 ---
 
 ## 📖 Books 📖
