@@ -130,22 +130,22 @@ This guide is curated from a collection of resources shared on LinkedIn, Twitter
 
 ### Google
 - **LLMOps – Google Cloud & DeepLearning.AI**  
-  🔗 [Course Link](https://lnkd.in/gMXDr7MJ)  
+  🔗 [Course Link](https://www.deeplearning.ai/short-courses/llmops/)  
   **Description:** Learn LLM operations, from pre-processing to model deployment.
 
 ### Microsoft
 - **Generative AI for Data Analysis Professional Certificate**  
-  🔗 [Course Link](https://lnkd.in/eKJ9qmEQ)  
+  🔗 [Course Link](https://microsoft.github.io/AI-For-Beginners/)  
   **Description:** Covering data analysis and generative AI with real-world applications.
 
 ### OpenAI
 - **ChatGPT Prompt Engineering for Devs**  
-  🔗 [Course Link](https://lnkd.in/gtGc5Znp)  
+  🔗 [Course Link](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)  
   **Description:** OpenAI's specialized course on prompt engineering for conversational AI models.
 
 ### Gemini
 - **Understanding Responsible AI – Gemini AI Lab**  
-  🔗 [Course Link](https://lnkd.in/dPHYXhMa)  
+  🔗 [Course Link](https://www.cloudskillsboost.google/course_templates/554)  
   **Description:** Focuses on responsible and ethical AI practices.
 
 ---
@@ -157,7 +157,7 @@ This guide is curated from a collection of resources shared on LinkedIn, Twitter
   **Description:** Building and applying prompt templates in LangChain.
 
 - **LangChain ChatBots Memory**  
-  🔗 [Course Link](https://lnkd.in/dfcAQzgr)  
+  🔗 [Course Link](https://www.kaggle.com/code/youssef19/langchain-chatbots-memory)  
   **Description:** Techniques for memory-aware chatbots using LangChain.
 
 ---
