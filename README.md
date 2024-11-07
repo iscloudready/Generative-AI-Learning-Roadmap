@@ -303,7 +303,21 @@ This section includes influential research papers and readings recommended by Il
   📄 [Read Article](https://example.com)  
   **Description:** Research on scaling language models and their impacts on performance.
 
+---
 
+## 📝 Articles 📝
+
+- **"Attention is All You Need"**  
+  📄 [Read Article](https://arxiv.org/abs/1706.03762)  
+  **Description:** Foundational paper on the Transformer model, revolutionizing NLP.
+
+- **"Understanding LSTMs" by Christopher Olah**  
+  📄 [Read Article](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)  
+  **Description:** An illustrated guide to Long Short-Term Memory (LSTM) networks.
+
+- **"Scaling Laws for Neural Language Models"**  
+  📄 [Read Article](https://example.com)  
+  **Description:** Research on scaling language models and their impacts on performance.
 
 ---
 
