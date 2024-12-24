@@ -148,6 +148,11 @@ This guide is curated from a collection of resources shared on LinkedIn, Twitter
   🔗 [Course Link](https://www.cloudskillsboost.google/course_templates/554)  
   **Description:** Focuses on responsible and ethical AI practices.
 
+### GitHub - LLM Mastery
+- **LLM Mastery In 30 Days – Vasanth51430**  
+  🔗 [Course Link](https://github.com/Vasanth51430/LLM_Mastery_In_30_Days)  
+  **Description:** A comprehensive 30-day roadmap to master Large Language Models (LLMs). This resource guides learners through NLP fundamentals, transformer models, fine-tuning, and deploying LLMs in real-world applications. Perfect for those looking for structured learning on LLMs and prompt engineering.
+  
 ---
 
 ## 💡 LangChain and Prompt Engineering
