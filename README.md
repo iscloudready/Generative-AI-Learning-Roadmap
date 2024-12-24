@@ -148,6 +148,11 @@ This guide is curated from a collection of resources shared on LinkedIn, Twitter
   🔗 [Course Link](https://www.cloudskillsboost.google/course_templates/554)  
   **Description:** Focuses on responsible and ethical AI practices.
 
+### GitHub - Awesome Generative AI
+- **Awesome Generative AI Guide – Aishwarya Reganti**  
+  🔗 [Course Link](https://github.com/aishwaryanr/awesome-generative-ai-guide)  
+  **Description:** A curated list of resources, tools, papers, and tutorials on generative AI. This guide covers topics like large language models (LLMs), prompt engineering, diffusion models, and more. Perfect for learners at all levels seeking structured and high-quality AI content.
+
 ### GitHub - LLM Mastery
 - **LLM Mastery In 30 Days – Vasanth51430**  
   🔗 [Course Link](https://github.com/Vasanth51430/LLM_Mastery_In_30_Days)  
