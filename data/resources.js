@@ -17,7 +17,8 @@ window.roadmapData = {
         {"title":"Learn Generative AI in 21 Hours","provider":"freeCodeCamp","type":"Course","url":"https://www.freecodecamp.org/news/learn-generative-ai-for-developers/","quality":"Free comprehensive bootcamp covering the full GenAI stack."},
         {"title":"Introduction to AI with Python","provider":"Harvard University","type":"Course","url":"https://cs50.harvard.edu/ai/","quality":"7-week Harvard course on AI technologies and ML basics."},
         {"title":"AI for Everyone","provider":"DeepLearning.AI","type":"Course","url":"https://www.coursera.org/learn/ai-for-everyone","quality":"Non-technical introduction to AI concepts and ethics."},
-        {"title":"AI for Everyone (DeepLearning.AI)","provider":"DeepLearning.AI","type":"Course","url":"https://www.deeplearning.ai/ai-for-everyone/","quality":"Official DeepLearning.AI entry point."}
+        {"title":"AI for Everyone (DeepLearning.AI)","provider":"DeepLearning.AI","type":"Course","url":"https://www.deeplearning.ai/ai-for-everyone/","quality":"Official DeepLearning.AI entry point."},
+        {"title":"Generative AI for Beginners","provider":"Microsoft","type":"Course","url":"https://github.com/microsoft/generative-ai-for-beginners","quality":"Free 18-lesson GitHub course covering GenAI fundamentals through practical projects."}
       ]
     },
     {
@@ -107,7 +108,8 @@ window.roadmapData = {
         {"title":"Mamba: Linear-Time Sequence Modeling","provider":"arXiv","type":"Paper","url":"https://arxiv.org/abs/2312.00752","quality":"State-space model alternative to Transformers."},
         {"title":"Neural Networks: Zero to Hero","provider":"Andrej Karpathy","type":"Video","url":"https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ","quality":"Full series building neural networks from scratch to GPT-2 — the most rigorous free course on model internals."},
         {"title":"But what is a neural network?","provider":"3Blue1Brown","type":"Video","url":"https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi","quality":"Visually intuitive playlist on how neural networks learn, backpropagation, and gradient descent."},
-        {"title":"MIT 6.S191: Introduction to Deep Learning","provider":"MIT","type":"Course","url":"http://introtodeeplearning.com/","quality":"MIT's free annual deep learning course — lectures, labs, and projects updated every year. Widely used in universities."}
+        {"title":"MIT 6.S191: Introduction to Deep Learning","provider":"MIT","type":"Course","url":"http://introtodeeplearning.com/","quality":"MIT's free annual deep learning course — lectures, labs, and projects updated every year. Widely used in universities."},
+        {"title":"CS324: Large Language Models","provider":"Stanford University","type":"Course","url":"https://stanford-cs324.github.io/winter2022/","quality":"Stanford course covering LLM capabilities, training, alignment, and societal impact — bridges CS224N and CS229."}
       ]
     },
     {
@@ -146,7 +148,8 @@ window.roadmapData = {
         {"title":"Speculative Decoding Explained","provider":"YouTube","type":"Video","url":"https://www.youtube.com/watch?v=S-2i20YbH2k","quality":"Technique for speeding up LLM inference without quality loss."},
         {"title":"Intro to Large Language Models","provider":"Andrej Karpathy","type":"Video","url":"https://www.youtube.com/watch?v=zjkBMFhNj_g","quality":"1-hour accessible overview of LLM internals, capabilities, and limitations by the former OpenAI research director."},
         {"title":"Building Systems with the ChatGPT API","provider":"DeepLearning.AI / OpenAI","type":"Course","url":"https://www.deeplearning.ai/short-courses/building-systems-with-chatgpt/","quality":"Multi-step LLM application patterns: chaining, classification, evaluation, and product integration."},
-        {"title":"Finetuning Large Language Models","provider":"DeepLearning.AI / Lamini","type":"Course","url":"https://www.deeplearning.ai/short-courses/finetuning-large-language-models/","quality":"Hands-on fine-tuning: when to fine-tune vs. prompt, data preparation, and training loops."}
+        {"title":"Finetuning Large Language Models","provider":"DeepLearning.AI / Lamini","type":"Course","url":"https://www.deeplearning.ai/short-courses/finetuning-large-language-models/","quality":"Hands-on fine-tuning: when to fine-tune vs. prompt, data preparation, and training loops."},
+        {"title":"Quantization Fundamentals with Hugging Face","provider":"DeepLearning.AI / Hugging Face","type":"Course","url":"https://www.deeplearning.ai/short-courses/quantization-fundamentals-with-hugging-face/","quality":"Reduce model memory by 4-8x using quantization, GGUF, bitsandbytes, and GPTQ — essential for local deployment."}
       ]
     },
     {
@@ -170,7 +173,8 @@ window.roadmapData = {
         {"title":"Ragas: RAG Evaluation Framework","provider":"Ragas","type":"Open Source","url":"https://docs.ragas.io/","quality":"Evaluation framework for RAG pipelines."},
         {"title":"Retrieval-Augmented Generation Survey","provider":"arXiv","type":"Paper","url":"https://arxiv.org/abs/2312.10997","quality":"Comprehensive survey of RAG methods."},
         {"title":"Seven Failure Points in RAG","provider":"arXiv","type":"Paper","url":"https://arxiv.org/abs/2401.05856","quality":"Taxonomy of RAG failure modes and mitigation strategies."},
-        {"title":"Building and Evaluating Advanced RAG","provider":"DeepLearning.AI","type":"Course","url":"https://www.deeplearning.ai/short-courses/building-evaluating-advanced-rag/","quality":"Advanced RAG patterns with evaluation."}
+        {"title":"Building and Evaluating Advanced RAG","provider":"DeepLearning.AI","type":"Course","url":"https://www.deeplearning.ai/short-courses/building-evaluating-advanced-rag/","quality":"Advanced RAG patterns with evaluation."},
+        {"title":"Knowledge Graphs for RAG","provider":"DeepLearning.AI / Neo4j","type":"Course","url":"https://www.deeplearning.ai/short-courses/knowledge-graphs-rag/","quality":"Combine knowledge graphs with vector search for structured QA over complex data."}
       ]
     },
     {
@@ -255,7 +259,8 @@ window.roadmapData = {
         {"title":"LLM Security Guide 2026","provider":"GitHub (requie)","type":"Guide","url":"https://github.com/requie/LLMSecurityGuide","quality":"Comprehensive LLM security guidance."},
         {"title":"AI Compliance Checklist 2026","provider":"Guardion AI","type":"Guide","url":"https://guardion.ai/blog/ai-compliance-checklist-2026","quality":"EU AI Act + NIST + OWASP compliance checklist."},
         {"title":"Mechanistic Interpretability Glossary","provider":"Neel Nanda","type":"Guide","url":"https://www.neelnanda.io/mechanistic-interpretability/glossary","quality":"Comprehensive glossary and primer on mechanistic interpretability."},
-        {"title":"Constitutional AI: Harmlessness from AI Feedback","provider":"arXiv","type":"Paper","url":"https://arxiv.org/abs/2212.08073","quality":"Anthropic's method for training harmless AI assistants."}
+        {"title":"Constitutional AI: Harmlessness from AI Feedback","provider":"arXiv","type":"Paper","url":"https://arxiv.org/abs/2212.08073","quality":"Anthropic's method for training harmless AI assistants."},
+        {"title":"Red Teaming LLM Applications","provider":"DeepLearning.AI / Giskard","type":"Course","url":"https://www.deeplearning.ai/short-courses/red-teaming-llm-applications/","quality":"Systematic security testing for LLM apps — prompt injection, jailbreaking, data poisoning, and automated red teaming."}
       ]
     },
     {
@@ -278,7 +283,8 @@ window.roadmapData = {
         {"title":"Advances in Multimodal LLMs Survey","provider":"arXiv","type":"Paper","url":"https://arxiv.org/abs/2401.13601","quality":"Comprehensive survey of MM-LLM techniques and models."},
         {"title":"How Diffusion Models Work","provider":"DeepLearning.AI","type":"Course","url":"https://www.deeplearning.ai/short-courses/how-diffusion-models-work/","quality":"Hands-on course on diffusion model fundamentals."},
         {"title":"Understanding VQ-VAE (DALL-E Explained)","provider":"ML at Berkeley","type":"Blog","url":"https://ml.berkeley.edu/blog/posts/vq-vae/","quality":"Explainer on VQ-VAE, foundation of image generation models."},
-        {"title":"An Image is Worth 16x16 Words: Vision Transformers","provider":"arXiv","type":"Paper","url":"https://arxiv.org/abs/2010.11929","quality":"Foundational ViT paper applying Transformers to vision."}
+        {"title":"An Image is Worth 16x16 Words: Vision Transformers","provider":"arXiv","type":"Paper","url":"https://arxiv.org/abs/2010.11929","quality":"Foundational ViT paper applying Transformers to vision."},
+        {"title":"Prompt Engineering for Vision Models","provider":"DeepLearning.AI","type":"Course","url":"https://www.deeplearning.ai/short-courses/prompt-engineering-for-vision-models/","quality":"Structuring text prompts for image generation, editing, and understanding with models like DALL-E, Stable Diffusion, and GPT-4V."}
       ]
     },
     {

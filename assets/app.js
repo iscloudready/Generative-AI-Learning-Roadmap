@@ -42,12 +42,13 @@
 
   /* ─── DOM refs ─── */
   var phaseContainer   = document.getElementById('phaseContainer');
-  var totalStartedEl   = document.getElementById('totalStarted');
-  var completedPctEl   = document.getElementById('completedPct');
-  var resourcesDoneEl  = document.getElementById('resourcesDone');
+  var totalTracksEl = document.getElementById('totalTracks');
+  var totalStartedEl = document.getElementById('totalStarted');
+  var completedPctEl = document.getElementById('completedPct');
+  var resourcesDoneEl = document.getElementById('resourcesDone');
   var resourcesTotalEl = document.getElementById('resourcesTotal');
   var tracksInProgressEl = document.getElementById('tracksInProgress');
-  var resumeTrackEl    = document.getElementById('resumeTrack');
+  var resumeTrackEl = document.getElementById('resumeTrack');
   var clearBtn         = document.getElementById('clearProgress');
   var exportBtn        = document.getElementById('exportProgress');
   var themeToggle      = document.getElementById('themeToggle');
@@ -120,9 +121,10 @@
       if (done > 0 && done < res) inProgressTracks++;
     });
 
-    if (totalStartedEl)    totalStartedEl.textContent   = startedTracks;
-    if (resourcesDoneEl)   resourcesDoneEl.textContent  = doneRes;
-    if (resourcesTotalEl)  resourcesTotalEl.textContent = totalRes;
+    if (totalTracksEl) totalTracksEl.textContent = tracks.length;
+    if (totalStartedEl) totalStartedEl.textContent = startedTracks;
+    if (resourcesDoneEl) resourcesDoneEl.textContent = doneRes;
+    if (resourcesTotalEl) resourcesTotalEl.textContent = totalRes;
     if (completedPctEl)    completedPctEl.textContent   = totalRes === 0 ? '0%' : Math.round((doneRes / totalRes) * 100) + '%';
     if (tracksInProgressEl) tracksInProgressEl.textContent = inProgressTracks;
 
