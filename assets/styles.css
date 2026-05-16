@@ -685,12 +685,35 @@ button.dashboard-card:hover {
   background: var(--surface-hover);
   color: var(--muted);
   font-size: 0.7rem;
+  font-weight: 600;
   text-decoration: none;
   transition: all var(--transition);
+  white-space: nowrap;
+  cursor: pointer;
+  border: none;
 }
 .resource-link:hover {
   background: var(--accent-glow);
   color: var(--accent-dark);
+}
+
+/* Internal doc — opens sidebar */
+.resource-link--doc {
+  background: var(--blue-light);
+  color: var(--blue);
+}
+.resource-link--doc:hover {
+  background: var(--blue-light);
+  color: var(--blue);
+  filter: brightness(0.88);
+}
+
+/* Resource has no URL */
+.resource-link--none {
+  opacity: 0.4;
+  cursor: not-allowed;
+  pointer-events: none;
+  font-size: 0.68rem;
 }
 
 .resource-toggle {

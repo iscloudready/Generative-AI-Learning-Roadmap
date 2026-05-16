@@ -268,7 +268,14 @@
       html += '<span class="resource-title">' + r.title + '</span>';
       html += '<span class="resource-meta"><span class="type-badge ' + typeBadgeClass(r.type) + '">' + (r.type || '') + '</span> ' + (r.provider || '') + '</span>';
       html += '</span>';
-      html += '<a class="resource-link" href="' + r.url + '" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Open</a>';
+      /* Route the action button: sidebar for internal .md, external tab for URLs, disabled for missing */
+      if (!r.url) {
+        html += '<span class="resource-link resource-link--none">No link</span>';
+      } else if (!r.url.startsWith('http') && r.url.endsWith('.md')) {
+        html += '<a class="resource-link resource-link--doc" href="' + r.url + '" data-sidebar-doc>Read</a>';
+      } else {
+        html += '<a class="resource-link" href="' + r.url + '" target="_blank" rel="noopener noreferrer">Open ↗</a>';
+      }
       html += '</div></li>';
     }
     html += '</ul>';
