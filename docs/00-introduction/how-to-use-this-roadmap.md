@@ -33,3 +33,7 @@ Recommended progression:
 - Security
 - Compliance
 - AI Risk Management
+
+---
+
+For a detailed breakdown of career paths (roles, salaries, timelines) and portfolio project ideas, see the **[Career & Portfolio Guide](career-and-portfolio.md)**.

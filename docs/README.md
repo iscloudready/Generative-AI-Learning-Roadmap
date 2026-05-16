@@ -7,6 +7,7 @@ topic-by-topic study.
 ## Start Here
 
 - [How to Use This Roadmap](00-introduction/how-to-use-this-roadmap.md)
+- [Career Paths & Portfolio Guide](00-introduction/career-and-portfolio.md)
 - [README Deep Analysis](roadmap-analysis.md)
 - [Link and Content Quality Audit](link-audit.md)
 - [Roadmap v2 Overview](../ROADMAP_V2.md)
