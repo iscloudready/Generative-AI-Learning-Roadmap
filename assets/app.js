@@ -502,6 +502,13 @@
 
   var viewerState = { trackId: null, docIdx: null, docs: [] };
 
+  function resolveRelativeUrl(base, relative) {
+    try {
+      var resolved = new URL(relative, new URL('http://x/' + base));
+      return resolved.pathname.slice(1);
+    } catch (e) { return relative; }
+  }
+
   function openDoc(url, trackId, docIdx) {
     docBody.innerHTML = '<div class="doc-loading">Loading...</div>';
     docSidebar.classList.add('open');
@@ -524,6 +531,21 @@
         docTitle.textContent = match ? match[1] : 'Documentation';
         docBody.innerHTML = '<div class="doc-content">' + html + '</div>';
         docBody.scrollTop = 0;
+        /* Intercept clicks on internal .md links so they open in the sidebar */
+        docBody.querySelectorAll('a[href]').forEach(function (a) {
+          var href = a.getAttribute('href');
+          if (!href) return;
+          if (!href.startsWith('http') && !href.startsWith('#') && href.endsWith('.md')) {
+            a.addEventListener('click', function (e) {
+              e.preventDefault();
+              e.stopPropagation();
+              openDoc(resolveRelativeUrl(url, href), null, null);
+            });
+          } else if (href.startsWith('http')) {
+            a.setAttribute('target', '_blank');
+            a.setAttribute('rel', 'noopener noreferrer');
+          }
+        });
       })
       .catch(function () {
         var fileProto = window.location.protocol === 'file:';
