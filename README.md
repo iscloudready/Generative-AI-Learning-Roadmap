@@ -278,36 +278,36 @@ Recommended starting points:
 ### Ilya Sutskever's Top 30 Reading List
 This section includes influential research papers and readings recommended by Ilya Sutskever, a pioneer in the AI and machine learning field. These papers are foundational for understanding neural networks, LSTMs, and other advanced AI concepts.
 
-1. The First Law of Complexodynamics
-2. The Unreasonable Effectiveness of Recurrent Neural Networks
-3. Understanding LSTM Networks
-4. Recurrent Neural Network Regularization
-5. Keeping Neural Networks Simple by Minimizing the Description Length of the Weights
-6. Pointer Networks
-7. ImageNet Classification with Deep Convolutional Neural Networks
-8. Order Matters: Sequence to Sequence for Sets
-9. GPipe: Easy Scaling with Micro-Batch Pipeline Parallelism
-10. Deep Residual Learning for Image Recognition
-11. Multi-Scale Context Aggregation by Dilated Convolutions
-12. Neural Message Passing for Quantum Chemistry
-13. Attention is All You Need
-14. Neural Machine Translation by Jointly Learning to Align and Translate
-15. Identity Mappings in Deep Residual Networks
-16. A Simple Neural Network Module for Relational Reasoning
-17. Variational Lossy Autoencoder
-18. Relational Recurrent Neural Networks
-19. Quantifying the Rise and Fall of Complexity in Closed Systems: the Coffee Automaton
-20. Neural Turing Machines
-21. Deep Speech 2: End-to-End Speech Recognition in English and Mandarin
-22. Scaling Laws for Neural Language Models
-23. A Tutorial Introduction to the Minimum Description Length Principle
-24. Machine Super Intelligence
-25. Kolmogorov Complexity and Algorithmic Randomness
-26. Stanford's CS231n Convolutional Neural Networks for Visual Recognition
-27. Dense Passage Retriever (DPR)
-28. Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks
-29. Zephyr: Direct Distillation of LM Alignment
-30. Lost in the Middle: How Language Models Use Long Contexts
+1. [The First Law of Complexodynamics](https://scottaaronson.blog/?p=762) -- Scott Aaronson
+2. [The Unreasonable Effectiveness of Recurrent Neural Networks](https://karpathy.github.io/2015/05/21/rnn-effectiveness/) -- Andrej Karpathy
+3. [Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/) -- Christopher Olah
+4. [Recurrent Neural Network Regularization](https://arxiv.org/abs/1409.2329) -- Zaremba et al.
+5. [Keeping Neural Networks Simple by Minimizing the Description Length of the Weights](https://www.cs.toronto.edu/~hinton/absps/colt93.pdf) -- Hinton & van Camp
+6. [Pointer Networks](https://arxiv.org/abs/1506.03134) -- Vinyals et al.
+7. [ImageNet Classification with Deep Convolutional Neural Networks](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks) -- Krizhevsky et al. (AlexNet)
+8. [Order Matters: Sequence to Sequence for Sets](https://arxiv.org/abs/1511.06391) -- Vinyals et al.
+9. [GPipe: Easy Scaling with Micro-Batch Pipeline Parallelism](https://arxiv.org/abs/1811.06965) -- Huang et al.
+10. [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385) -- He et al. (ResNet)
+11. [Multi-Scale Context Aggregation by Dilated Convolutions](https://arxiv.org/abs/1511.07122) -- Yu & Koltun
+12. [Neural Message Passing for Quantum Chemistry](https://arxiv.org/abs/1704.01212) -- Gilmer et al.
+13. [Attention is All You Need](https://arxiv.org/abs/1706.03762) -- Vaswani et al. (Transformer)
+14. [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473) -- Bahdanau et al. (Attention)
+15. [Identity Mappings in Deep Residual Networks](https://arxiv.org/abs/1603.05027) -- He et al.
+16. [A Simple Neural Network Module for Relational Reasoning](https://arxiv.org/abs/1706.01427) -- Santoro et al.
+17. [Variational Lossy Autoencoder](https://arxiv.org/abs/1611.02731) -- Chen et al.
+18. [Relational Recurrent Neural Networks](https://arxiv.org/abs/1806.01822) -- Santoro et al.
+19. [Quantifying the Rise and Fall of Complexity in Closed Systems: the Coffee Automaton](https://arxiv.org/abs/1405.6903) -- Aaronson et al.
+20. [Neural Turing Machines](https://arxiv.org/abs/1410.5401) -- Graves et al.
+21. [Deep Speech 2: End-to-End Speech Recognition in English and Mandarin](https://arxiv.org/abs/1512.02595) -- Amodei et al.
+22. [Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361) -- Kaplan et al.
+23. [A Tutorial Introduction to the Minimum Description Length Principle](https://arxiv.org/abs/math/0406077) -- Grunwald
+24. [Machine Super Intelligence](https://www.vetta.org/documents/Machine_Super_Intelligence.pdf) -- Shane Legg (PhD thesis)
+25. [Kolmogorov Complexity and Algorithmic Randomness](https://www.lirmm.fr/~ashen/kolmbook-eng-scan.pdf) -- Shen, Uspensky, Vereshchagin
+26. [Stanford's CS231n Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/) -- Stanford / Fei-Fei Li et al.
+27. [Dense Passage Retriever (DPR)](https://arxiv.org/abs/2004.04906) -- Karpukhin et al.
+28. [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401) -- Lewis et al. (RAG)
+29. [Zephyr: Direct Distillation of LM Alignment](https://arxiv.org/abs/2310.16944) -- Tunstall et al.
+30. [Lost in the Middle: How Language Models Use Long Contexts](https://arxiv.org/abs/2307.03172) -- Liu et al.
 
 ---
 
@@ -478,12 +478,6 @@ This section includes influential research papers and readings recommended by Il
 | Other Specialized Topics   | Detecting Buyer-side Returns Fraud      | Video                 | [Watch](https://youtu.be/as4i1tUo0EA) |
 | Other Specialized Topics   | LinkedIn's CTR Modeling                 | Video                 | [Watch](https://youtu.be/7l0HLYVFEuU) |
 | Other Specialized Topics   | Building Large Language Models (Stanford CS229) | Course          | [Link](https://cs229.stanford.edu/) |
-
----
-
-## 📢 Contributing to this Guide
-
-This roadmap is designed to be a living document. We invite you to contribute by adding new resources, suggesting improvements, or sharing additional insights! Please submit a pull request on GitHub or reach out with your suggestions. Let's build a comprehensive learning path for everyone interested in Generative AI. 🙌
 
 ---
 
