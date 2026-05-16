@@ -1,0 +1,254 @@
+{
+  "meta": {
+    "title": "Generative AI Learning Roadmap",
+    "updated": "2026-05-13",
+    "qualityRule": "Prefer canonical URLs from official documentation, universities, research papers, established educators, and mature open-source projects."
+  },
+  "tracks": [
+    {
+      "id": "introduction",
+      "title": "Introduction and Learning Paths",
+      "level": "Beginner",
+      "summary": "How to use this roadmap, prerequisites, role-based progression, and learning strategies.",
+      "outcome": "Choose a learning path aligned with your role and current skill level.",
+      "resources": [
+        {"title":"How to Use This Roadmap","provider":"GenAI Roadmap","type":"Guide","url":"docs/00-introduction/how-to-use-this-roadmap.md","quality":"First-party learning path guide."},
+        {"title":"Roadmap V2 Overview","provider":"GenAI Roadmap","type":"Guide","url":"ROADMAP_V2.md","quality":"Complete track listing with 14 modular paths."},
+        {"title":"Learn Generative AI in 21 Hours","provider":"freeCodeCamp","type":"Course","url":"https://www.freecodecamp.org/news/learn-generative-ai-for-developers/","quality":"Free comprehensive bootcamp covering the full GenAI stack."},
+        {"title":"Introduction to AI with Python","provider":"Harvard University","type":"Course","url":"https://cs50.harvard.edu/ai/","quality":"7-week Harvard course on AI technologies and ML basics."},
+        {"title":"AI for Everyone","provider":"DeepLearning.AI","type":"Course","url":"https://www.coursera.org/learn/ai-for-everyone","quality":"Non-technical introduction to AI concepts and ethics."},
+        {"title":"AI for Everyone (DeepLearning.AI)","provider":"DeepLearning.AI","type":"Course","url":"https://www.deeplearning.ai/ai-for-everyone/","quality":"Official DeepLearning.AI entry point."}
+      ]
+    },
+    {
+      "id": "foundations",
+      "title": "Scientific Foundations",
+      "level": "Beginner",
+      "summary": "Mathematics, statistics, probability, and the baseline thinking needed for modern AI.",
+      "outcome": "Read model papers and understand optimization, vectors, probability, and evaluation basics.",
+      "resources": [
+        {"title":"Mathematics for Machine Learning","provider":"Imperial College London / Coursera","type":"Course","url":"https://www.coursera.org/specializations/mathematics-machine-learning","quality":"University-backed foundation course."},
+        {"title":"MIT Linear Algebra","provider":"MIT OpenCourseWare","type":"Course","url":"https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/","quality":"Canonical open university course."},
+        {"title":"Khan Academy Statistics and Probability","provider":"Khan Academy","type":"Course","url":"https://www.khanacademy.org/math/statistics-probability","quality":"Accessible prerequisite coverage."},
+        {"title":"Mathematics for ML","provider":"YouTube","type":"Video","url":"https://youtu.be/oMY2uKjx_Zc","quality":"Linear algebra, calculus, and foundational math for ML."},
+        {"title":"Data Science Basics","provider":"YouTube","type":"Video","url":"https://youtu.be/maxyUZGB3QY","quality":"Core concepts in data science and ML fundamentals."},
+        {"title":"Data Science: Visualization","provider":"YouTube","type":"Video","url":"https://youtu.be/Y6PEpkEdXDQ","quality":"Visualizing data with Python libraries."},
+        {"title":"Data Science: Probability (Harvard)","provider":"Harvard University","type":"Course","url":"https://pll.harvard.edu/course/data-science-probability","quality":"Harvard probability course."},
+        {"title":"Probability for Data Science","provider":"Great Learning","type":"Course","url":"https://mygreatlearning.com/academy/learn-for-free/courses/probability-for-data-science","quality":"Free probability fundamentals course."},
+        {"title":"Statistics and R (Harvard)","provider":"Harvard University","type":"Course","url":"https://edx.org/learn/r-programming/harvard-university-statistics-and-r","quality":"Harvard statistics course using R."},
+        {"title":"Python Crash Course","provider":"Eric Matthes","type":"Book","url":"https://nostarch.com/python-crash-course-3rd-edition","quality":"Beginner-friendly Python introduction."},
+        {"title":"Entropy, Cross-Entropy, KL-Divergence","provider":"YouTube","type":"Video","url":"https://www.youtube.com/watch?v=hJ8-NauTj2s","quality":"Information theory fundamentals for ML."}
+      ]
+    },
+    {
+      "id": "machine-learning",
+      "title": "Machine Learning Foundations",
+      "level": "Beginner to Intermediate",
+      "summary": "Supervised learning, unsupervised learning, evaluation, features, and classical ML systems.",
+      "outcome": "Train, evaluate, and explain baseline ML models before moving into deep learning.",
+      "resources": [
+        {"title":"Machine Learning Specialization","provider":"Stanford Online / DeepLearning.AI","type":"Course","url":"https://www.coursera.org/specializations/machine-learning-introduction","quality":"Widely used introduction from Andrew Ng."},
+        {"title":"Google Machine Learning Crash Course","provider":"Google Developers","type":"Course","url":"https://developers.google.com/machine-learning/crash-course","quality":"Practical engineering-oriented course."},
+        {"title":"Practical Deep Learning for Coders","provider":"fast.ai","type":"Course","url":"https://course.fast.ai/","quality":"Hands-on path into useful model building."},
+        {"title":"Data Science & ML","provider":"Harvard University","type":"Course","url":"https://pll.harvard.edu/course/data-science-machine-learning","quality":"Intermediate ML concepts, probability, and statistics."},
+        {"title":"Data Science: Linear Regression (Harvard)","provider":"Harvard University","type":"Course","url":"https://pll.harvard.edu/course/data-science-linear-regression/2023-10","quality":"Harvard linear regression course."},
+        {"title":"Advanced ML on Google Cloud","provider":"Google Cloud","type":"Course","url":"https://www.coursera.org/specializations/advanced-machine-learning-tensorflow-gcp","quality":"Advanced ML with model optimization."},
+        {"title":"Supervised ML: Regression and Classification","provider":"Coursera","type":"Course","url":"https://www.coursera.org/learn/machine-learning?id=285&irgwc=1","quality":"In-depth supervised ML techniques."},
+        {"title":"AI Workflow: Feature Engineering and Bias Detection","provider":"IBM","type":"Course","url":"https://www.coursera.org/learn/ibm-ai-workflow-feature-engineering-bias-detection","quality":"Data preparation, bias detection, and model validation."},
+        {"title":"Structuring Machine Learning Projects","provider":"DeepLearning.AI","type":"Course","url":"https://www.coursera.org/learn/machine-learning-projects","quality":"Best practices for structuring ML projects."},
+        {"title":"Linear Regression","provider":"Google ML Crash Course","type":"Course","url":"https://developers.google.com/machine-learning/crash-course/linear-regression","quality":"Google's official linear regression module."},
+        {"title":"Logistic Regression","provider":"Google ML Crash Course","type":"Course","url":"https://developers.google.com/machine-learning/crash-course/logistic-regression","quality":"Google's official logistic regression module."},
+        {"title":"Dimensionality Reduction (PCA, AutoEncoders)","provider":"scikit-learn","type":"Docs","url":"https://scikit-learn.org/stable/modules/decomposition.html","quality":"Official scikit-learn decomposition docs."},
+        {"title":"Linear Regression","provider":"YouTube","type":"Video","url":"https://www.youtube.com/watch?v=-OVHiTZofN0&list=PL89V0TQq5GLpnZlZMeUa8EAmM-v9QqXqQ","quality":"Video playlist on linear regression."},
+        {"title":"Logistic Regression","provider":"YouTube","type":"Video","url":"https://www.youtube.com/watch?v=0zlDF9A4UiY&list=PL89V0TQq5GLrK1_bXqci8lkaikCliD4I6","quality":"Video playlist on logistic regression."},
+        {"title":"Naive Bayes Classifier","provider":"YouTube","type":"Video","url":"https://youtu.be/IvTCdrx1SHQ","quality":"Naive Bayes explanation."},
+        {"title":"Dimensionality Reduction (PCA, AutoEncoders)","provider":"YouTube","type":"Video","url":"https://www.youtube.com/watch?v=bjaTz-7BnMY","quality":"PCA and autoencoder concepts."},
+        {"title":"ML Metrics for Classification","provider":"YouTube","type":"Video","url":"https://youtu.be/E2HRSJKU-_4","quality":"Classification evaluation metrics."},
+        {"title":"Categorical Variable Encoding Strategies","provider":"YouTube","type":"Video","url":"https://youtu.be/MKuAQv6ybc8","quality":"Feature encoding techniques."},
+        {"title":"Probability, Model Calibration","provider":"YouTube","type":"Video","url":"https://youtu.be/rG2EfFOXyg0","quality":"Probability calibration for ML models."},
+        {"title":"Data Drift Detection, Model Monitoring","provider":"YouTube","type":"Video","url":"https://youtu.be/tQjRQWfYQ10","quality":"ML model monitoring and drift detection."},
+        {"title":"Isotonic Regression","provider":"YouTube","type":"Video","url":"https://youtu.be/lo3rUyk9qi0","quality":"Isotonic regression explanation."},
+        {"title":"The Hundred-Page Machine Learning Book","provider":"Andriy Burkov","type":"Book","url":"https://www.amazon.com/Hundred-Page-Machine-Learning-Book/dp/199957950X","quality":"Concise ML overview."},
+        {"title":"Machine Learning Yearning","provider":"Andrew Ng","type":"Book","url":"https://www.deeplearning.ai/books/machine-learning-yearning/","quality":"Free book on structuring ML projects."},
+        {"title":"Hands-On Machine Learning","provider":"Aurelien Geron","type":"Book","url":"https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/","quality":"Practical ML with Scikit-Learn, Keras, and TensorFlow."}
+      ]
+    },
+    {
+      "id": "deep-learning",
+      "title": "Deep Learning and Transformers",
+      "level": "Intermediate",
+      "summary": "Neural networks, attention, transformers, embeddings, and scaling behavior.",
+      "outcome": "Understand why transformer models work and how they became the foundation for LLMs.",
+      "resources": [
+        {"title":"Attention Is All You Need","provider":"arXiv","type":"Paper","url":"https://arxiv.org/abs/1706.03762","quality":"Foundational transformer paper."},
+        {"title":"Stanford CS224N","provider":"Stanford University","type":"Course","url":"https://web.stanford.edu/class/cs224n/","quality":"Strong NLP and transformer foundations."},
+        {"title":"Hugging Face NLP Course","provider":"Hugging Face","type":"Course","url":"https://huggingface.co/learn/nlp-course","quality":"Practical transformer tooling and model usage."},
+        {"title":"Neural Networks & Deep Learning","provider":"DeepLearning.AI","type":"Course","url":"https://www.coursera.org/learn/neural-networks-deep-learning","quality":"Core architectures of neural networks."},
+        {"title":"Deep Learning Specialization","provider":"DeepLearning.AI","type":"Course","url":"https://www.deeplearning.ai/courses/deep-learning-specialization/","quality":"Comprehensive deep learning specialization."},
+        {"title":"Improving Deep Neural Networks","provider":"DeepLearning.AI","type":"Course","url":"https://www.coursera.org/learn/deep-neural-network","quality":"Hyperparameter tuning, regularization, and optimization."},
+        {"title":"NLP Specialization","provider":"DeepLearning.AI","type":"Course","url":"https://www.deeplearning.ai/courses/natural-language-processing-specialization/","quality":"NLP from classification to attention."},
+        {"title":"GANs Specialization","provider":"DeepLearning.AI","type":"Course","url":"https://www.deeplearning.ai/courses/generative-adversarial-networks-gans-specialization/","quality":"GAN architecture and applications."},
+        {"title":"Deep Residual Learning for Image Recognition","provider":"YouTube","type":"Video","url":"https://youtu.be/WQj8QtjC3gA","quality":"Understanding deep residual networks."},
+        {"title":"Attention Mechanisms and Transformers","provider":"YouTube","type":"Video","url":"https://youtu.be/v-0J7o-nDBE","quality":"Deep dive into attention and transformer models."},
+        {"title":"Understanding LSTMs","provider":"Christopher Olah","type":"Article","url":"https://colah.github.io/posts/2015-08-Understanding-LSTMs/","quality":"Illustrated guide to LSTM networks."},
+        {"title":"Deep Learning","provider":"Goodfellow, Bengio, Courville","type":"Book","url":"https://www.deeplearningbook.org/","quality":"Comprehensive deep learning theory."},
+        {"title":"Generative Deep Learning","provider":"David Foster","type":"Book","url":"https://www.oreilly.com/library/view/generative-deep-learning/9781098134174/","quality":"Teaching machines to paint, write, compose, and play."},
+        {"title":"NLP with Transformers","provider":"Tunstall, von Werra, Wolf","type":"Book","url":"https://www.oreilly.com/library/view/natural-language-processing/9781098136789/","quality":"Practical guide to transformer-based NLP."},
+        {"title":"Intro to GANs and Stable Diffusion","provider":"YouTube","type":"Video","url":"https://youtu.be/KUeq-wszG80","quality":"Generative models introduction."},
+        {"title":"Train Neural Networks to Approximate Any Function","provider":"YouTube","type":"Video","url":"https://youtu.be/4PvGKuqRQTE","quality":"Universal approximation theorem in practice."},
+        {"title":"BERT for Embeddings","provider":"YouTube","type":"Video","url":"https://youtu.be/v-0J7o-nDBE","quality":"BERT and embeddings deep dive."},
+        {"title":"Model Compression with Knowledge Distillation","provider":"YouTube","type":"Video","url":"https://youtu.be/1N_EBJUOjVU","quality":"Techniques for compressing deep learning models."},
+        {"title":"Stanford CS229: Building Large Language Models","provider":"Stanford University","type":"Course","url":"https://cs229.stanford.edu/","quality":"Stanford ML course with LLM focus."}
+      ]
+    },
+    {
+      "id": "llm-engineering",
+      "title": "LLM Engineering",
+      "level": "Intermediate",
+      "summary": "Tokenization, embeddings, fine tuning, inference, safety, and model integration.",
+      "outcome": "Build LLM features with clear tradeoffs across quality, cost, latency, and safety.",
+      "resources": [
+        {"title":"OpenAI Embeddings Guide","provider":"OpenAI","type":"Docs","url":"https://platform.openai.com/docs/guides/embeddings","quality":"Official embeddings documentation."},
+        {"title":"Hugging Face Learn","provider":"Hugging Face","type":"Docs","url":"https://huggingface.co/learn","quality":"Broad practical learning hub."},
+        {"title":"Scaling Laws for Neural Language Models","provider":"arXiv","type":"Paper","url":"https://arxiv.org/abs/2001.08361","quality":"Important scaling-law research paper."},
+        {"title":"Generative AI with Large Language Models","provider":"AWS / DeepLearning.AI","type":"Course","url":"https://www.coursera.org/learn/generative-ai-with-llms","quality":"Build and deploy LLMs with AWS."},
+        {"title":"ChatGPT Prompt Engineering for Developers","provider":"OpenAI / DeepLearning.AI","type":"Course","url":"https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/","quality":"OpenAI's prompt engineering course."},
+        {"title":"Training Embeddings for Recommendation Systems","provider":"YouTube","type":"Video","url":"https://youtu.be/DN4S96oHRhE","quality":"Key concepts in embeddings for recommendation engines."},
+        {"title":"LLM Mastery In 30 Days","provider":"Vasanth51430 (GitHub)","type":"Course","url":"https://github.com/Vasanth51430/LLM_Mastery_In_30_Days","quality":"30-day roadmap for mastering LLMs."},
+        {"title":"LLMOps","provider":"Google Cloud / DeepLearning.AI","type":"Course","url":"https://www.deeplearning.ai/short-courses/llmops/","quality":"LLM operations from pre-processing to deployment."},
+        {"title":"Conversational AI (ChatGPT)","provider":"YouTube","type":"Video","url":"https://youtu.be/JKoJ5YIr2O4","quality":"Conversational AI deep dive."},
+        {"title":"Dual Nature of Conversational LLMs","provider":"YouTube","type":"Video","url":"https://youtu.be/MHfzoHC4kek","quality":"Understanding conversational LLM behavior."},
+        {"title":"Enhancing LLMs","provider":"YouTube","type":"Video","url":"https://youtu.be/mF7OM_XU2S4","quality":"Techniques for improving LLM performance."},
+        {"title":"Falcon and LLAMA-2","provider":"YouTube","type":"Video","url":"https://youtu.be/CxqZ5j3xlt0","quality":"Open-source LLM model overview."},
+        {"title":"Supercharging LLama-2 and Falcon","provider":"YouTube","type":"Video","url":"https://youtu.be/paGr-t1wSOQ","quality":"Fine-tuning and optimizing open-source LLMs."}
+      ]
+    },
+    {
+      "id": "rag",
+      "title": "RAG Systems",
+      "level": "Intermediate",
+      "summary": "Retrieval, chunking, embeddings, reranking, vector databases, and answer evaluation.",
+      "outcome": "Build a citation-friendly assistant over private or domain-specific knowledge.",
+      "resources": [
+        {"title":"Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks","provider":"arXiv","type":"Paper","url":"https://arxiv.org/abs/2005.11401","quality":"Foundational RAG paper."},
+        {"title":"Pinecone Learn","provider":"Pinecone","type":"Guide","url":"https://www.pinecone.io/learn/","quality":"Practical vector search and RAG guides."},
+        {"title":"Weaviate Academy","provider":"Weaviate","type":"Course","url":"https://academy.weaviate.io/","quality":"Structured vector database learning."},
+        {"title":"RAG from Scratch","provider":"LangChain","type":"Course","url":"https://python.langchain.com/docs/tutorials/rag/","quality":"Build RAG from the ground up."},
+        {"title":"LlamaIndex","provider":"LlamaIndex","type":"Open Source","url":"https://www.llamaindex.ai/","quality":"Data framework for RAG applications."}
+      ]
+    },
+    {
+      "id": "agents",
+      "title": "AI Agents",
+      "level": "Intermediate to Advanced",
+      "summary": "Tool calling, workflows, planning, memory, observability, and multi-agent systems.",
+      "outcome": "Design agents that can call tools, preserve state, and fail predictably.",
+      "resources": [
+        {"title":"LangGraph","provider":"LangChain","type":"Open Source","url":"https://github.com/langchain-ai/langgraph","quality":"Stateful graph orchestration for agent workflows."},
+        {"title":"AutoGen","provider":"Microsoft","type":"Open Source","url":"https://github.com/microsoft/autogen","quality":"Mature multi-agent experimentation framework."},
+        {"title":"Model Context Protocol","provider":"MCP","type":"Docs","url":"https://modelcontextprotocol.io/","quality":"Standard protocol for connecting AI apps to tools."},
+        {"title":"CrewAI","provider":"CrewAI","type":"Open Source","url":"https://github.com/crewAIInc/crewAI","quality":"Multi-agent orchestration framework."},
+        {"title":"Building LLM Agents Using LangChain","provider":"LangChain","type":"Course","url":"https://python.langchain.com/docs/tutorials/agents/","quality":"Official LangChain agent tutorial."}
+      ]
+    },
+    {
+      "id": "infrastructure",
+      "title": "LLMOps and Infrastructure",
+      "level": "Advanced",
+      "summary": "Serving, monitoring, GPUs, Kubernetes, model routing, reliability, and cost control.",
+      "outcome": "Deploy and operate AI systems with observable production behavior.",
+      "resources": [
+        {"title":"vLLM","provider":"vLLM Project","type":"Open Source","url":"https://github.com/vllm-project/vllm","quality":"High-throughput inference engine."},
+        {"title":"KServe","provider":"KServe","type":"Docs","url":"https://kserve.github.io/kserve/","quality":"Kubernetes-native model serving."},
+        {"title":"NVIDIA Training","provider":"NVIDIA","type":"Courses","url":"https://learn.nvidia.com/","quality":"Official accelerated computing and AI training."},
+        {"title":"Ollama","provider":"Ollama","type":"Open Source","url":"https://ollama.com/","quality":"Simplest way to run local LLMs."}
+      ]
+    },
+    {
+      "id": "open-source-ai",
+      "title": "Open Source AI Ecosystem",
+      "level": "Intermediate",
+      "summary": "Hugging Face, Ollama, vLLM, Open WebUI, llama.cpp, LiteLLM, and self-hosted AI.",
+      "outcome": "Run, serve, and customize open-source models locally or on your own infrastructure.",
+      "resources": [
+        {"title":"Hugging Face","provider":"Hugging Face","type":"Platform","url":"https://huggingface.co/","quality":"Central hub for open-source models and datasets."},
+        {"title":"Open WebUI","provider":"Open WebUI","type":"Open Source","url":"https://github.com/open-webui/open-webui","quality":"Self-hosted chat interface for local and remote models."},
+        {"title":"llama.cpp","provider":"ggerganov","type":"Open Source","url":"https://github.com/ggerganov/llama.cpp","quality":"LLM inference in C/C++."},
+        {"title":"LM Studio","provider":"LM Studio","type":"Platform","url":"https://lmstudio.ai/","quality":"Desktop app for running local models."},
+        {"title":"Awesome Generative AI Guide","provider":"Aishwarya Reganti","type":"Guide","url":"https://github.com/aishwaryanr/awesome-generative-ai-guide","quality":"Curated list of GenAI resources."}
+      ]
+    },
+    {
+      "id": "enterprise",
+      "title": "Enterprise AI Governance",
+      "level": "Advanced",
+      "summary": "Security, privacy, compliance, risk management, responsible AI, and auditability.",
+      "outcome": "Evaluate whether an AI system is trustworthy enough for business use.",
+      "resources": [
+        {"title":"NIST AI Risk Management Framework","provider":"NIST","type":"Framework","url":"https://www.nist.gov/itl/ai-risk-management-framework","quality":"Government risk management framework."},
+        {"title":"OWASP Top 10 for LLM Applications","provider":"OWASP","type":"Security Guide","url":"https://owasp.org/www-project-top-10-for-large-language-model-applications/","quality":"Security-focused LLM risk taxonomy."},
+        {"title":"Microsoft Responsible AI","provider":"Microsoft","type":"Guide","url":"https://www.microsoft.com/en-us/ai/responsible-ai","quality":"Enterprise responsible AI guidance."},
+        {"title":"Understanding Responsible AI","provider":"Gemini AI Lab","type":"Course","url":"https://www.cloudskillsboost.google/course_templates/554","quality":"Google Cloud responsible AI course."},
+        {"title":"AI for Good","provider":"DeepLearning.AI","type":"Course","url":"https://www.deeplearning.ai/courses/ai-for-good/","quality":"Responsible-AI adjacent course from DeepLearning.AI."}
+      ]
+    },
+    {
+      "id": "multimodal",
+      "title": "Multimodal AI",
+      "level": "Intermediate",
+      "summary": "Vision, speech, audio, realtime interaction, OCR, and video generation.",
+      "outcome": "Build applications that combine text, image, voice, and document understanding.",
+      "resources": [
+        {"title":"OpenAI Vision Guide","provider":"OpenAI","type":"Docs","url":"https://platform.openai.com/docs/guides/vision","quality":"Official multimodal image understanding docs."},
+        {"title":"Whisper","provider":"OpenAI","type":"Open Source","url":"https://github.com/openai/whisper","quality":"Open-source speech recognition model."},
+        {"title":"ElevenLabs","provider":"ElevenLabs","type":"Platform","url":"https://elevenlabs.io/","quality":"Production voice AI platform."}
+      ]
+    },
+    {
+      "id": "product-engineering",
+      "title": "AI Product Engineering",
+      "level": "Intermediate to Advanced",
+      "summary": "Copilots, AI UX, evaluation, trust, monetization, and human feedback loops.",
+      "outcome": "Build AI-powered products that users trust and rely on.",
+      "resources": [
+        {"title":"GitHub Copilot","provider":"GitHub","type":"Platform","url":"https://github.com/features/copilot","quality":"Industry-leading AI coding assistant."},
+        {"title":"Microsoft AI Design Guidelines","provider":"Microsoft","type":"Docs","url":"https://learn.microsoft.com/en-us/ai/design/","quality":"Official UX guidance for human-AI interaction."},
+        {"title":"OpenAI Assistants API","provider":"OpenAI","type":"Docs","url":"https://platform.openai.com/docs/assistants/overview","quality":"Official API for building copilot experiences."},
+        {"title":"Generative AI for Data Analysis","provider":"Microsoft","type":"Course","url":"https://microsoft.github.io/AI-For-Beginners/","quality":"Microsoft's AI for Beginners curriculum."}
+      ]
+    },
+    {
+      "id": "real-world-use-cases",
+      "title": "Real-World AI Use Cases",
+      "level": "Intermediate",
+      "summary": "AI for DevOps, SRE, healthcare, finance, education, and enterprise search.",
+      "outcome": "Identify and implement appropriate AI solutions for domain-specific problems.",
+      "resources": [
+        {"title":"AI for DevOps and SRE","provider":"GenAI Roadmap","type":"Guide","url":"docs/12-real-world-use-cases/devops-sre.md","quality":"First-party guide on AI for operations."},
+        {"title":"Grafana","provider":"Grafana Labs","type":"Open Source","url":"https://grafana.com/","quality":"Observability and monitoring platform."},
+        {"title":"OpenTelemetry","provider":"CNCF","type":"Open Source","url":"https://opentelemetry.io/","quality":"Industry standard for observability instrumentation."},
+        {"title":"AI for Medicine","provider":"DeepLearning.AI","type":"Course","url":"https://www.deeplearning.ai/courses/ai-for-medicine-specialization/","quality":"AI applications in healthcare."}
+      ]
+    },
+    {
+      "id": "tools",
+      "title": "Tools and Frameworks",
+      "level": "All Levels",
+      "summary": "Practical frameworks for RAG, agents, model routing, local AI, and product integration.",
+      "outcome": "Choose tools based on problem shape instead of hype.",
+      "resources": [
+        {"title":"LlamaIndex","provider":"LlamaIndex","type":"Open Source","url":"https://github.com/run-llama/llama_index","quality":"Strong RAG and document indexing ecosystem."},
+        {"title":"Semantic Kernel","provider":"Microsoft","type":"Open Source","url":"https://github.com/microsoft/semantic-kernel","quality":"Enterprise AI orchestration SDK."},
+        {"title":"LiteLLM","provider":"BerriAI","type":"Open Source","url":"https://github.com/BerriAI/litellm","quality":"Model gateway and provider abstraction."},
+        {"title":"LangChain","provider":"LangChain","type":"Open Source","url":"https://github.com/langchain-ai/langchain","quality":"Popular LLM application framework."},
+        {"title":"LangChain Prompt Templates","provider":"LangChain","type":"Docs","url":"https://python.langchain.com/docs/concepts/prompt_templates/","quality":"Official prompt template documentation."},
+        {"title":"LangChain Output Parsing","provider":"LangChain","type":"Docs","url":"https://python.langchain.com/docs/concepts/output_parsers/","quality":"Official output parser documentation."},
+        {"title":"Understanding LangChain Chains","provider":"LangChain","type":"Docs","url":"https://python.langchain.com/docs/concepts/chain/","quality":"Official chain documentation."},
+        {"title":"LangChain ChatBots Memory","provider":"LangChain","type":"Docs","url":"https://docs.langchain.com/oss/python/concepts/memory","quality":"Official LangChain memory concepts."},
+        {"title":"LLM Evaluation (lm-evaluation-harness)","provider":"EleutherAI","type":"Open Source","url":"https://github.com/EleutherAI/lm-evaluation-harness","quality":"Standard LLM evaluation framework."},
+        {"title":"DeepEval","provider":"Confident AI","type":"Open Source","url":"https://github.com/confident-ai/deepeval","quality":"LLM evaluation and testing framework."},
+        {"title":"LangSmith","provider":"LangChain","type":"Platform","url":"https://smith.langchain.com/","quality":"LLM observability and evaluation platform."}
+      ]
+    }
+  ]
+}

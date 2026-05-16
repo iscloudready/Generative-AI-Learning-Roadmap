@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Generative AI Learning Roadmap</title>
+    <meta name="description" content="A modern, curated, phase-based roadmap for learning generative AI from foundations to production systems. 16 learning tracks covering math, LLMs, RAG, agents, LLMOps, reasoning models, and coding AI.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;850&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <a href="#main" class="skip-link">Skip to content</a>
+
+    <header class="site-header" id="top">
+      <nav class="nav" aria-label="Primary">
+        <a class="brand" href="#top" aria-label="Generative AI Learning Roadmap home">
+          <span class="brand-mark" aria-hidden="true">GA</span>
+          <span class="brand-text">GenAI Roadmap</span>
+        </a>
+        <div class="nav-links">
+          <button class="filter-pill active" data-level="all">All</button>
+          <button class="filter-pill" data-level="Beginner">Beginner</button>
+          <button class="filter-pill" data-level="Intermediate">Intermediate</button>
+          <button class="filter-pill" data-level="Advanced">Advanced</button>
+          <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+            <span class="theme-icon-light" aria-hidden="true">&#9789;</span>
+            <span class="theme-icon-dark" aria-hidden="true">&#9728;</span>
+          </button>
+        </div>
+      </nav>
+
+      <section class="hero" id="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">v2 &middot; 2026 edition</p>
+          <h1>Learn generative AI<br>from first principles to<br>production systems.</h1>
+          <p class="hero-text">
+            A curated, phase-based roadmap — papers, courses, videos, and open-source tools —
+            organized across 16 tracks so you know exactly what to learn next.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#roadmap">Start learning</a>
+            <a class="button secondary" href="README.md" data-sidebar-doc>Read the README</a>
+          </div>
+        </div>
+        <aside class="hero-stats" aria-label="Roadmap statistics">
+          <div class="stat-block">
+            <span class="stat-value" id="totalTracks">14</span>
+            <span class="stat-label">learning tracks</span>
+          </div>
+          <div class="stat-block">
+            <span class="stat-value" id="totalResources">201</span>
+            <span class="stat-label">curated resources</span>
+          </div>
+          <div class="stat-block">
+            <span class="stat-value" id="totalStarted">0</span>
+            <span class="stat-label">tracks started</span>
+          </div>
+          <div class="stat-block">
+            <span class="stat-value" id="completedPct">0%</span>
+            <span class="stat-label">complete</span>
+          </div>
+        </aside>
+      </section>
+    </header>
+
+    <main id="main">
+      <div class="search-filter-wrap" id="searchFilterWrap" role="search">
+        <div class="search-filter-inner">
+          <div class="search-input-wrap">
+            <input class="search-input" id="searchInput" type="search" placeholder="Search resources, courses, papers…" aria-label="Search resources">
+            <span class="search-kbd" aria-hidden="true">/</span>
+          </div>
+          <div class="type-filter-bar" role="group" aria-label="Filter by resource type">
+            <button class="type-pill active" data-type="all">All</button>
+            <button class="type-pill" data-type="course">Courses</button>
+            <button class="type-pill" data-type="video">Videos</button>
+            <button class="type-pill" data-type="paper">Papers</button>
+            <button class="type-pill" data-type="open-source">Open Source</button>
+            <button class="type-pill" data-type="guide">Guides &amp; Docs</button>
+          </div>
+        </div>
+      </div>
+
+      <section class="section" id="dashboard" aria-label="Your progress">
+        <div class="section-heading">
+          <p class="eyebrow">Your progress</p>
+          <h2>Pick up where you left off.</h2>
+        </div>
+        <div class="dashboard-grid" id="dashboardGrid">
+          <div class="dashboard-card" id="resumeCard">
+            <div class="dashboard-card-icon">&#9654;</div>
+            <div>
+              <p class="dashboard-card-label">Last accessed</p>
+              <p class="dashboard-card-value" id="resumeTrack">Not started yet</p>
+            </div>
+          </div>
+          <div class="dashboard-card">
+            <div class="dashboard-card-icon">&#10003;</div>
+            <div>
+              <p class="dashboard-card-label">Resources completed</p>
+              <p class="dashboard-card-value"><span id="resourcesDone">0</span> / <span id="resourcesTotal">201</span></p>
+            </div>
+          </div>
+          <div class="dashboard-card">
+            <div class="dashboard-card-icon">&#9733;</div>
+            <div>
+              <p class="dashboard-card-label">Tracks in progress</p>
+              <p class="dashboard-card-value" id="tracksInProgress">0</p>
+            </div>
+          </div>
+          <button class="dashboard-card" id="clearProgress" aria-label="Reset all progress">
+            <div class="dashboard-card-icon">&#8635;</div>
+            <div>
+              <p class="dashboard-card-label">Reset progress</p>
+              <p class="dashboard-card-value">Clear all data</p>
+            </div>
+          </button>
+          <button class="dashboard-card" id="exportProgress" aria-label="Export progress as JSON">
+            <div class="dashboard-card-icon">&#8681;</div>
+            <div>
+              <p class="dashboard-card-label">Export progress</p>
+              <p class="dashboard-card-value">Save as JSON</p>
+            </div>
+          </button>
+        </div>
+      </section>
+
+      <section class="section" id="roadmap">
+        <div class="section-heading">
+          <p class="eyebrow">Roadmap</p>
+          <h2>Four phases to production-ready AI.</h2>
+          <p class="section-subtitle">Each phase builds on the last. Expand a phase to see its tracks, then open a track to explore resources and documentation.</p>
+        </div>
+        <div id="phaseContainer"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>Generative AI Learning Roadmap</span>
+      <div class="footer-links">
+        <a href="docs/contribution-guide.md" data-sidebar-doc>Contribute</a>
+        <a href="docs/link-audit.md" data-sidebar-doc>Audit</a>
+        <a href="docs/README.md" data-sidebar-doc>Docs index</a>
+      </div>
+    </footer>
+
+    <div class="doc-overlay" id="docOverlay"></div>
+    <aside class="doc-sidebar" id="docSidebar" role="dialog" aria-modal="true" aria-label="Documentation viewer">
+      <div class="doc-sidebar-header">
+        <button class="doc-sidebar-close" id="docSidebarClose" aria-label="Close documentation viewer">&times;</button>
+        <div class="doc-sidebar-heading">
+          <p class="doc-sidebar-breadcrumb" id="docBreadcrumb"></p>
+          <p class="doc-sidebar-title" id="docTitle">Documentation</p>
+        </div>
+      </div>
+      <div class="doc-sidebar-nav" id="docNav">
+        <button class="doc-nav-btn" id="docPrev" aria-label="Previous document">&#9664; Prev</button>
+        <span class="doc-nav-counter" id="docCounter"></span>
+        <button class="doc-nav-btn" id="docNext" aria-label="Next document">Next &#9654;</button>
+      </div>
+      <div class="doc-sidebar-body" id="docBody">
+        <div class="doc-loading">Loading...</div>
+      </div>
+    </aside>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked@15.0.6/marked.min.js"></script>
+    <script src="data/resources.js"></script>
+    <script src="assets/app.js"></script>
+  </body>
+</html>

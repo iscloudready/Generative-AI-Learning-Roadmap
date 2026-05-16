@@ -15,6 +15,7 @@ This guide is curated from a collection of resources shared on LinkedIn, Twitter
 ---
 
 ## 📚 Table of Contents
+- [Documentation Hub](#documentation-hub)
 - [Beginner Level](#beginner-level)
 - [Intermediate Level](#intermediate-level)
 - [Advanced Level](#advanced-level)
@@ -29,6 +30,28 @@ This guide is curated from a collection of resources shared on LinkedIn, Twitter
   - [Articles 📝](#articles-📝)
 - [Contributing to this Guide](#contributing-to-this-guide)
 - [Closing Notes](#closing-notes)
+
+---
+
+## 🧭 Documentation Hub
+
+This README is the broad resource catalog. For a deeper, modular learning path,
+use the new docs folder:
+
+- [Docs Index](docs/README.md)
+- [README Deep Analysis](docs/roadmap-analysis.md)
+- [Documentation Contribution Guide](docs/contribution-guide.md)
+- [Roadmap v2 Overview](ROADMAP_V2.md)
+
+Recommended starting points:
+
+- New learners: [How to Use This Roadmap](docs/00-introduction/how-to-use-this-roadmap.md)
+- ML foundations: [Machine Learning Foundations](docs/02-machine-learning-foundations/machine-learning.md)
+- LLM builders: [Transformers](docs/03-deep-learning-transformers/transformers.md) and [Embeddings](docs/04-llm-engineering/embeddings.md)
+- RAG builders: [Retrieval-Augmented Generation](docs/05-rag-systems/rag-overview.md)
+- Agent builders: [AI Agents](docs/06-ai-agents/agents.md)
+- Production engineers: [LLMOps and AI Infrastructure](docs/07-ai-infrastructure/llmops.md)
+- Enterprise teams: [Enterprise AI Governance](docs/09-enterprise-ai/governance.md)
 
 ---
 
@@ -48,7 +71,7 @@ This guide is curated from a collection of resources shared on LinkedIn, Twitter
   **Description:** An introduction to AI concepts, ethics, and applications, perfect for non-technical learners.
 
 - **Introduction to AI with Python – Harvard University**  
-  🔗 [Course Link](https://lnkd.in/g4Sbb3nQ)  
+   🔗 [Course Link](https://cs50.harvard.edu/ai/)  
   **Description:** A 7-week course covering AI technologies and machine learning basics.
 
 ### Videos
@@ -163,12 +186,12 @@ This guide is curated from a collection of resources shared on LinkedIn, Twitter
 ## 💡 LangChain and Prompt Engineering
 
 - **LangChain Prompt Templates**  
-  🔗 [Course Link](https://lnkd.in/dVkuiizQ)  
+   🔗 [Course Link](https://python.langchain.com/docs/concepts/prompt_templates/)  
   **Description:** Building and applying prompt templates in LangChain.
 
 - **LangChain ChatBots Memory**  
-  🔗 [Course Link](https://www.kaggle.com/code/youssef19/langchain-chatbots-memory)  
-  **Description:** Techniques for memory-aware chatbots using LangChain.
+  🔗 [Docs Link](https://docs.langchain.com/oss/python/concepts/memory)  
+  **Description:** Official LangChain and LangGraph memory concepts for short-term and long-term agent memory.
 
 ---
 
@@ -265,21 +288,21 @@ This section includes influential research papers and readings recommended by Il
 ### 🔹 Courses from DeepLearning.AI
 
 - [AI for Everyone](https://www.deeplearning.ai/ai-for-everyone/)
-- [Generative AI with Large Language Models](https://www.deeplearning.ai/generative-ai-with-llms/)
-- [Neural Networks and Deep Learning](https://www.deeplearning.ai/neural-networks-and-deep-learning/)
-- [Structuring Machine Learning Projects](https://www.deeplearning.ai/structuring-ml-projects/)
-- [Improving Deep Neural Networks](https://www.deeplearning.ai/improving-deep-neural-networks/)
-- [AI for Medicine](https://www.deeplearning.ai/ai-for-medicine/)
-- [Natural Language Processing Specialization](https://www.deeplearning.ai/nlp-specialization/)
-- [Generative Adversarial Networks](https://www.deeplearning.ai/generative-adversarial-networks/)
-- [AI Ethics](https://www.deeplearning.ai/ai-ethics/)
+- [Generative AI with Large Language Models](https://www.deeplearning.ai/courses/generative-ai-with-llms/)
+- [Deep Learning Specialization](https://www.deeplearning.ai/courses/deep-learning-specialization/)
+- [Structuring Machine Learning Projects](https://www.coursera.org/learn/machine-learning-projects)
+- [Improving Deep Neural Networks](https://www.coursera.org/learn/deep-neural-network)
+- [AI for Medicine](https://www.deeplearning.ai/courses/ai-for-medicine-specialization/)
+- [Natural Language Processing Specialization](https://www.deeplearning.ai/courses/natural-language-processing-specialization/)
+- [Generative Adversarial Networks](https://www.deeplearning.ai/courses/generative-adversarial-networks-gans-specialization/)
+- [AI for Good](https://www.deeplearning.ai/courses/ai-for-good/)
 
 ### 🔹 Extra Resources
 
-- 📚 [Stanford CS229: Building Large Language Models](https://t.co/Eh0IYhHY0g)
+- 📚 [Stanford CS229: Building Large Language Models](https://cs229.stanford.edu/)
 - 🎓 [Learn Generative AI in 21 Hours](https://www.freecodecamp.org/news/learn-generative-ai-for-developers/)
-- 🎥 [NVIDIA Online Courses](https://t.co/orcYDKCs4v)
-- 🧠 [LLM Evaluation](https://t.co/xsYgjw0x5g)
+- 🎥 [NVIDIA Online Courses](https://learn.nvidia.com/)
+- 🧠 [LLM Evaluation](https://github.com/EleutherAI/lm-evaluation-harness)
 - 📝 [Awesome Generative AI Guide](https://github.com/aishwaryanr/awesome-generative-ai-guide)
 ---
 
@@ -310,7 +333,7 @@ This section includes influential research papers and readings recommended by Il
   **Description:** An illustrated guide to Long Short-Term Memory (LSTM) networks.
 
 - **"Scaling Laws for Neural Language Models"**  
-  📄 [Read Article](https://example.com)  
+  📄 [Read Article](https://arxiv.org/abs/2001.08361)  
   **Description:** Research on scaling language models and their impacts on performance.
 
 ---
@@ -322,11 +345,11 @@ This section includes influential research papers and readings recommended by Il
 | **Category**       | **Topic**                                      | **Resource Type**     | **Link** |
 |--------------------|------------------------------------------------|-----------------------|----------|
 | Machine Learning   | Mathematics for ML                             | Video                 | [Watch](https://youtu.be/oMY2uKjx_Zc) |
-| Machine Learning   | Linear Regression                              | Course                | [Link](https://lnkd.in/gdRsMHbn) |
-| Machine Learning   | Logistic Regression                            | Course                | [Link](https://lnkd.in/gtPfmQUv) |
+| Machine Learning   | Linear Regression                              | Course                | [Link](https://developers.google.com/machine-learning/crash-course/linear-regression) |
+| Machine Learning   | Logistic Regression                            | Course                | [Link](https://developers.google.com/machine-learning/crash-course/logistic-regression) |
 | Machine Learning   | Naive Bayes Classifier                         | Video                 | [Watch](https://youtu.be/IvTCdrx1SHQ) |
-| Machine Learning   | Dimensionality Reduction (PCA, AutoEncoders)   | Course                | [Link](https://lnkd.in/gC6XQfez) |
-| Machine Learning   | Data Science: Machine Learning (Harvard)       | Course                | [Link](https://lnkd.in/eBPDfkqd) |
+| Machine Learning   | Dimensionality Reduction (PCA, AutoEncoders)   | Course                | [Link](https://scikit-learn.org/stable/modules/decomposition.html) |
+| Machine Learning   | Data Science: Machine Learning (Harvard)       | Course                | [Link](https://pll.harvard.edu/course/data-science-machine-learning) |
 | Machine Learning   | Machine Learning Crash Course                  | Course (Google)       | [Link](https://developers.google.com/machine-learning/crash-course) |
 | Machine Learning   | Data Science: Linear Regression (Harvard)      | Course                | [Link](https://pll.harvard.edu/course/data-science-linear-regression/2023-10) |
 
@@ -334,42 +357,42 @@ This section includes influential research papers and readings recommended by Il
 
 | **Category**       | **Topic**                                      | **Resource Type**     | **Link** |
 |--------------------|------------------------------------------------|-----------------------|----------|
-| Statistics         | Statistics Fundamentals                        | Playlist              | [Link](https://lnkd.in/gCNme3W9) |
-| Statistics         | Data Science: Probability (Harvard)            | Course                | [Link](https://lnkd.in/ecEFv-hE) |
+| Statistics         | Statistics Fundamentals                        | Playlist              | [Link](https://www.khanacademy.org/math/statistics-probability) |
+| Statistics         | Data Science: Probability (Harvard)            | Course                | [Link](https://pll.harvard.edu/course/data-science-probability) |
 | Statistics         | Probability                                    | Course                | [Link](https://pll.harvard.edu/course/data-science-probability) |
 | Statistics         | Data Science: Probability (Great Learning)     | Course                | [Link](https://mygreatlearning.com/academy/learn-for-free/courses/probability-for-data-science) |
 | Statistics         | Statistics and R (Harvard)                     | Course                | [Link](https://edx.org/learn/r-programming/harvard-university-statistics-and-r) |
-| Statistics         | Data Science: Probability (Harvard)            | Course                | [Link](https://lnkd.in/ecEFv-hE) |
+| Statistics         | Data Science: Probability (Harvard)            | Course                | [Link](https://pll.harvard.edu/course/data-science-probability) |
 
 ### Generative AI
 
 | **Category**       | **Topic**                                      | **Resource Type**     | **Link** |
 |--------------------|------------------------------------------------|-----------------------|----------|
-| Generative AI      | ChatGPT Prompt Engineering for Devs            | Course (OpenAI)       | [Link](https://lnkd.in/gtGc5Znp) |
-| Generative AI      | LLMOps (Google Cloud & DeepLearning.AI)        | Course                | [Link](https://lnkd.in/gMXDr7MJ) |
-| Generative AI      | Generative AI for Data Analysis (Microsoft)    | Professional Certificate | [Link](https://lnkd.in/eKJ9qmEQ) |
+| Generative AI      | ChatGPT Prompt Engineering for Devs            | Course (OpenAI)       | [Link](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/) |
+| Generative AI      | LLMOps (Google Cloud & DeepLearning.AI)        | Course                | [Link](https://www.deeplearning.ai/short-courses/llmops/) |
+| Generative AI      | Generative AI for Data Analysis (Microsoft)    | Professional Certificate | [Link](https://microsoft.github.io/AI-For-Beginners/) |
 | Generative AI      | AI for Everyone (DeepLearning.AI)              | Course                | [Link](https://www.deeplearning.ai/ai-for-everyone/) |
-| Generative AI      | Generative AI with Large Language Models (AWS) | Course                | [Link](https://lnkd.in/dSNEtsDz) |
+| Generative AI      | Generative AI with Large Language Models (AWS) | Course                | [Link](https://www.coursera.org/learn/generative-ai-with-llms) |
 | Generative AI      | Generative Deep Learning by David Foster       | Book                  | - |
 
 ### Programming
 
 | **Category**       | **Topic**                                      | **Resource Type**     | **Link** |
 |--------------------|------------------------------------------------|-----------------------|----------|
-| Programming        | Python for Data Science, AI & Development (IBM)| Course                | [Link](https://lnkd.in/dAzq8jCr) |
-| Programming        | R Programming Fundamentals                     | Course (Stanford)     | [Link](https://lnkd.in/eYrsBwAH) |
-| Programming        | SQL for Data Science                           | Course                | [Link](https://lnkd.in/eSUCR9jB) |
-| Programming        | MongoDB Basics                                 | Course                | [Link](https://lnkd.in/es6miJmh) |
-| Programming        | Python for Data Science (Playlist)             | Playlist              | [Link](https://lnkd.in/gzD7cy6R) |
+| Programming        | Python for Data Science, AI & Development (IBM)| Course                | [Link](https://www.coursera.org/learn/python-for-applied-data-science-ai) |
+| Programming        | R Programming Fundamentals                     | Course (Stanford)     | [Link](https://www.edx.org/learn/r-programming) |
+| Programming        | SQL for Data Science                           | Course                | [Link](https://www.coursera.org/learn/sql-for-data-science) |
+| Programming        | MongoDB Basics                                 | Course                | [Link](https://learn.mongodb.com/) |
+| Programming        | Python for Data Science (Playlist)             | Playlist              | [Link](https://www.youtube.com/playlist?list=PLP8iPy9hna6T56VX9S6H0F7RoNxiL1qL7) |
 
 ### LangChain and Prompt Engineering
 
 | **Category**                       | **Topic**                            | **Resource Type**     | **Link** |
 |------------------------------------|--------------------------------------|-----------------------|----------|
-| LangChain and Prompt Engineering   | LangChain Prompt Templates           | Course                | [Link](https://lnkd.in/dVkuiizQ) |
-| LangChain and Prompt Engineering   | Building LLM Agents Using LangChain  | Course                | [Link](https://lnkd.in/dmTgfzYV) |
-| LangChain and Prompt Engineering   | LangChain Output Parsing             | Course                | [Link](https://lnkd.in/dYvjufGD) |
-| LangChain and Prompt Engineering   | Understanding LangChain Chains       | Course                | [Link](https://lnkd.in/deE4HYpu) |
+| LangChain and Prompt Engineering   | LangChain Prompt Templates           | Course                | [Link](https://python.langchain.com/docs/concepts/prompt_templates/) |
+| LangChain and Prompt Engineering   | Building LLM Agents Using LangChain  | Course                | [Link](https://python.langchain.com/docs/tutorials/agents/) |
+| LangChain and Prompt Engineering   | LangChain Output Parsing             | Course                | [Link](https://python.langchain.com/docs/concepts/output_parsers/) |
+| LangChain and Prompt Engineering   | Understanding LangChain Chains       | Course                | [Link](https://python.langchain.com/docs/concepts/chain/) |
 
 ### Other Specialized Topics
 
@@ -377,10 +400,10 @@ This section includes influential research papers and readings recommended by Il
 |----------------------------|-----------------------------------------|-----------------------|----------|
 | Other Specialized Topics   | Dynamic Pricing in Ecommerce            | Video                 | [Watch](https://youtu.be/a_CXpnsvPa0) |
 | Other Specialized Topics   | Transparent Machine Learning with GenAI | Video                 | [Watch](https://youtu.be/PPl0MRuCKLo) |
-| Other Specialized Topics   | RAG from Scratch                        | Course                | [Link](https://lnkd.in/gKBqvbF3) |
+| Other Specialized Topics   | RAG from Scratch                        | Course                | [Link](https://python.langchain.com/docs/tutorials/rag/) |
 | Other Specialized Topics   | Detecting Buyer-side Returns Fraud      | Video                 | [Watch](https://youtu.be/as4i1tUo0EA) |
 | Other Specialized Topics   | LinkedIn’s CTR Modeling                 | Video                 | [Watch](https://youtu.be/7l0HLYVFEuU) |
-| Other Specialized Topics   | Building Large Language Models (Stanford CS229) | Course          | [Link](https://t.co/Eh0IYhHY0g) |
+| Other Specialized Topics   | Building Large Language Models (Stanford CS229) | Course          | [Link](https://cs229.stanford.edu/) |
 
 ---
 
