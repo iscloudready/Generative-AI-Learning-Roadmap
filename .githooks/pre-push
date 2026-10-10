@@ -1,0 +1,9 @@
+#!/bin/sh
+# managed-by: estate-guardrails (do not edit; change config/guardrails/estate.json and re-run `estate_guard.py apply`)
+# Rule D pre-push: refuses force-push/delete of protected branches, forbidden branch names, unrelated histories, tracked secrets.
+root=$(git rev-parse --show-toplevel) || exit 0
+py=$(command -v python3 || command -v python) || exit 0
+g="$root/scripts/guardrails/repo_topology_guard.py"
+[ -f "$g" ] || exit 0
+"$py" "$g" --scope push --ci --pre-push || { echo "  x pre-push (Rule D) failed - fix the findings above (bypass, logged: GUARDRAILS_BYPASS=1)" >&2; exit 1; }
+exit 0

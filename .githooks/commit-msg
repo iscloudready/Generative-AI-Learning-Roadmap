@@ -1,0 +1,10 @@
+#!/bin/sh
+# managed-by: estate-guardrails
+# Traceability: a commit message should reference a ticket (#123, PROJ-123) or carry [no-ticket: reason]. mode: warn
+msg=$(sed -e '/^#/d' "$1")
+case "$msg" in "Merge "*|"Revert "*|"fixup! "*|"squash! "*|"") exit 0 ;; esac
+printf '%s' "$msg" | grep -qiE '\[no-ticket' && exit 0
+printf '%s' "$msg" | grep -qE '(#[0-9]+|[A-Z][A-Z0-9]+-[0-9]+)' && exit 0
+echo "  ! commit-msg: no ticket reference (#123 / PROJ-123 / [no-ticket: reason])" >&2
+[ "warn" = "enforce" ] && exit 1
+exit 0

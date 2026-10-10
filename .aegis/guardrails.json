@@ -1,0 +1,11 @@
+{
+  "trunk": "main",
+  "default_branch": "main",
+  "remote": "origin",
+  "max_branch_age_days": 45,
+  "max_open_branches": 12,
+  "forbidden_branch_names": [
+    "master"
+  ],
+  "trunk_push_policy": "ff-only"
+}
