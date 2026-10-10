@@ -59,6 +59,7 @@ DEFAULT_CONFIG = {
     "protected_branches": [],              # default: [trunk]
     "forbid_force_push": True,             # non-fast-forward update of a protected branch
     "forbid_branch_delete": True,          # deleting a protected branch
+    "retained_suffixes": ["-merged", "-archived"],   # branches renamed by the estate naming convention: reviewed + retained, exempt from G4/G5/G6
     "forbidden_branch_names": ["master"],  # the estate standard is `main`; creating/updating these is refused (deleting is allowed)
     "trunk_push_policy": "ff-only",        # ff-only | pr-only (refuse direct pushes to protected branches) | open
 }
@@ -160,6 +161,8 @@ def check_topology(repo: str, cfg: dict, today: dt.date, scope: str) -> list[Fin
     for name, ref in sorted(branches.items()):
         if ref == trunk or name == trunk_name or ref == default:
             continue
+        if name.endswith(tuple(cfg.get("retained_suffixes") or ())):
+            continue                                        # naming convention: already reviewed and retained on purpose
         ex, expired = active_exception(cfg, name, today)
         if ex and not expired:
             continue                                        # explicit, owned, unexpired exception (any check)
