@@ -20,6 +20,7 @@ Checks (id - severity when violated):
   P1-P4 push policy        FAIL  (pre-push hook, `--pre-push`): delete / force-push of a protected branch, push to a forbidden
                             branch name (master), direct push to a protected branch when trunk_push_policy = pr-only.
                             Bypass: GUARDRAILS_BYPASS=1 (allowed, logged to .git/guardrails-bypass.log, reported as WARN)
+  G11 tracked-cache         FAIL  a regenerable cache (__pycache__, node_modules, venv, .pytest_cache, *.pyc ...) is tracked
   G10 hooks-installed       WARN  core.hooksPath is not .githooks (EN-1 commit gate is per-clone opt-in); skipped with --ci
 
 Exceptions are explicit, owned and EXPIRING (`.aegis/guardrails.json` -> "exceptions"); an expired exception counts as a
@@ -55,6 +56,9 @@ DEFAULT_CONFIG = {
     "ignore_branches": ["HEAD"],
     "forbid_tracked": ["**/.env", ".env", "**/cookie*.txt", "**/.coverage", ".coverage"],
     "exceptions": [],
+    # G11: regenerable caches must never be tracked (a venv once put 10,779 files into a repo); matched as path components / suffixes
+    "forbid_tracked_dirs": ["__pycache__", "node_modules", ".venv", "venv", ".pytest_cache", ".mypy_cache", ".ruff_cache"],
+    "forbid_tracked_suffixes": [".pyc"],
     # --- push policy (our-side branch protection: enforced by the pre-push hook, independent of GitHub settings) ---
     "protected_branches": [],              # default: [trunk]
     "forbid_force_push": True,             # non-fast-forward update of a protected branch
@@ -236,6 +240,9 @@ def check_files(repo: str, cfg: dict) -> list[Finding]:
     if hits:
         f.append(Finding("G8", "FAIL", hits[0], f"{len(hits)} tracked file(s) match forbid_tracked (secrets/artifacts must never be committed): "
                          + ", ".join(hits[:6]) + (" ..." if len(hits) > 6 else "")))
+    cache_hits = sorted({p for p in files if any(part in cfg["forbid_tracked_dirs"] for part in p.split("/")[:-1]) or p.endswith(tuple(cfg["forbid_tracked_suffixes"]))})
+    if cache_hits:
+        f.append(Finding("G11", "FAIL", cache_hits[0], f"{len(cache_hits)} tracked cache file(s) (untrack with: git rm -r --cached <dir>, then ignore it): " + ", ".join(cache_hits[:4]) + (" ..." if len(cache_hits) > 4 else "")))
     seen: dict[str, list[str]] = {}
     for p in files:
         seen.setdefault(p.lower(), []).append(p)
